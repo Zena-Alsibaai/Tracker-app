@@ -1,0 +1,24 @@
+.search{
+    width: 100%;
+    padding-top: 15rem;
+ 
+    
+
+    .search-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        // align-items: center;
+        margin: 2rem;
+       
+    }
+
+    button {
+        color: #CF1F1F;
+       
+        &:focus{
+          background-color: #313131;
+        }
+    
+      }
+}
