@@ -1,0 +1,23 @@
+.series{
+    width: 100%;
+    padding-top: 10rem;
+
+    .tv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        // align-items: center;
+        margin: 2rem;
+       
+    }
+
+    button {
+        color: #CF1F1F;
+       
+        &:focus{
+          background-color: #313131;
+        }
+    
+      
+    }
+}
